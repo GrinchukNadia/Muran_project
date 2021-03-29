@@ -1,0 +1,106 @@
+.history{
+    position: relative;
+    margin-bottom: 258px;
+}
+.history_container{
+    display: flex;
+}
+.history_descr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 292px;
+    margin-left: -455px;
+}
+.history_poster{
+    height: 100%;
+    width: fit-content;
+
+    .history_elem{
+        position: relative;
+        padding-top: 25px;
+        margin: 0px 0 0px 689px;
+        .elem_square{
+            width: 41px;
+            height: 41px;
+            border: 1px solid #372821;
+        }
+        .elem_square-small{
+            position: absolute;
+            width: 11px;
+            height: 11px;
+            margin-top: 25px;
+            background-color: #372821;
+            top: 16.5px;
+            left: 16.5px;
+        }
+    }
+}
+#history_img {
+    width: 57%;
+    height: 603px;
+    left: 0;
+}
+.history_main{
+    z-index: 0;
+    background-color: #fff;
+    padding: 83px 54px 65px 100px;
+}
+.history_text p{
+    padding-left: 46px;
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 18px;
+    line-height: 216.9%;
+}
+.top_line.history_line{
+    height: 131px;
+}
+.history_navigation-btn{
+    display: flex;
+    padding-left: 46px;
+
+    .video_btn{
+        background-color: transparent;
+        border: 1px solid #372821;
+        width: 57px;
+        height: 57px;
+        margin-left: 118px;
+
+    }
+}
+.history_video{
+    display: flex;
+    align-items: center;
+    
+    span{
+        display: block;
+        height: 1.2px;
+        width: 47px;
+        margin-left: -8px;
+        background-color: #372821;
+    }
+    .video_title{
+        margin-left: 34px;
+        font-family: "Gotham Pro", sans-serif;
+        font-size: 18px;
+        line-height: 210.9%;
+    }
+}
+.common_nav.history_nav{
+    margin: -128px -150px 0 0;
+    .line1 {
+        left: 12px;
+    }
+    .line2{
+        left: 12px;
+    }
+    .arrow_up {
+        right: 64px;
+    }
+    .arrow_down {
+        right: 64px;
+    }
+    .small_square {
+        left: 22.6%;
+    }
+}

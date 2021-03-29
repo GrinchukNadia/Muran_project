@@ -1,0 +1,140 @@
+.header_head{
+    display: flex;
+}
+.left{
+    display: flex;
+}
+.shop_icon{
+    display: flex;
+    align-items: center;
+
+    svg{
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+    }
+    .shop_count{
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: #FF8989;
+        font-weight: 700;
+        font-size: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        margin-left: 6px;
+    }
+}
+
+.search_panel{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.search{
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: left;
+    color: #888888;
+    border-bottom: 1px solid #888888;
+    margin: 20px;
+}
+.logo{
+    align-items: center;
+    margin: 17px 219px 17px 200px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: #474747;
+        margin-left: 25px;
+    }
+}
+.head_nav{
+    background-color: #F2EFEB;
+
+    ul {
+        display: flex;
+        justify-content: center;
+
+        li{
+            text-align: center;
+            padding: 20px 90px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    }
+
+}
+.header_info{
+    height: 756px;
+    position: relative;
+    overflow: hidden;
+}
+.promo{
+    display: flex;
+    width: 30%;
+
+    .promo_left{
+        display: flex;
+        flex-direction: column;
+        width: 113%;
+        .arrow-right{
+            margin-left: 70px;
+        }
+        .line{
+            width: 2px;
+            height: 67px;
+            background-color: #372821;
+            margin-left: 40px;
+            margin-top: 141px;
+        }
+        .down{
+            position: absolute;
+        }
+    }
+}
+.common_title.header_title{
+    margin-bottom: 112px;
+    margin-top: 228px;
+    z-index: 2;
+    .header_title-line{
+        font-family: "Gotham Pro", sans-serif;
+        font-size: 59px;
+        text-align: left;
+    }
+    .top_line{
+        bottom: 216px;
+    }
+    span{
+        height: 2px;
+        width: 168px;
+        background-color: #372821;
+        margin: -30px 0 0 300px;
+    }
+
+}
+
+.promo_img{
+    width: 100%;
+    img{
+        margin: 46px 0;
+        height: 664px;
+        width: 74%;
+        object-fit: cover;
+        position: absolute;
+    }
+}
+.header_btn{
+    margin-bottom: 94px;
+}
